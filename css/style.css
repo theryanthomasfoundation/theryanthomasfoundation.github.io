@@ -810,6 +810,10 @@
 		}
 
 /*********************************************************************************/
+/* paralax                                                                        */
+/*********************************************************************************/
+
+/*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
@@ -817,7 +821,7 @@
 	{
 		position: relative;
 		margin: 0;
-		background-image:			url('images/overlay.png'),			url('../images/header.jpg');
+		background-image:				linear-gradient(45deg, rgba(55, 112,210, .7), rgba(25, 115,150,.7), rgba(54,112, 118, .7)),		url('../images/rtf/water.jpg');
 		background-size:			auto,								cover;
 		background-position:		top left,							center center;
 		background-repeat:			repeat,								no-repeat;
@@ -903,7 +907,7 @@
 				background: #433;
 			}
 			
-			.main > .content.style1
+			.main > .content.style3
 			{
 				background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
@@ -920,7 +924,7 @@
 							linear-gradient(45deg, #384955, #655361, #85505f);
 			}
 
-			.main > .content.style3
+			.main > .content.style1
 			{
 				background:	url('images/bgtr.svg') top right no-repeat,
 							url('images/bgbl.svg') bottom left no-repeat,
