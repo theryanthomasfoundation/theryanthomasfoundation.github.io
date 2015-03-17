@@ -859,10 +859,11 @@
 	.site-header 
 	{
 		box-sizing: border-box;
-		background-color: rgb(242, 247, 255);
+		background-color: rgba(60, 87, 137, 0.20);
 		min-height: 110px;
 		margin: 0;
 		position: relative;
+		text-align: left;
 		
 	}
 
@@ -870,13 +871,17 @@
 			margin: 0;
 			padding: 5px;
 		}
-		.site-header header {margin: 0;}
+		.site-header header {
+			margin: 0;
+			margin-bottom: 80px;
+		}
 		.site-header nav
 		{
 			position: absolute;
 			bottom: 10px;
 			right: 40px;
 			margin-top: 10px;
+			margin-bottom: 80px;
 		}
 
 		@media (max-width: 1000px) {
@@ -894,7 +899,7 @@
 
 		}
 		.site-header nav a:hover {
-			color: rgb(47, 60, 77);
+			color: rgb(186, 186, 186);
 		}
 
 
@@ -906,7 +911,7 @@
 		background-size:			auto,								cover;
 		background-position:		top left,							center center;
 		background-repeat:			repeat,								no-repeat;
-		padding: 14em 0 14em 0;
+		padding: 0em 0 14em 0;
 		text-align: center;
 		color: #fff;
 	}
