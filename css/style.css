@@ -871,6 +871,23 @@
 			margin: 0;
 			padding: 5px;
 		}
+
+		.site-header .logo img {
+			height: 200px;
+		}
+
+		@media (max-width: 1045px) {
+			.site-header .logo img {
+				height: 160px;
+			}
+		}
+
+		@media (max-width: 500px) {
+			.site-header .logo img {
+				height: 120px;
+			}
+		}
+
 		.site-header header {
 			margin: 0;
 			margin-bottom: 80px;
@@ -884,7 +901,7 @@
 			margin-bottom: 80px;
 		}
 
-		@media (max-width: 1000px) {
+		@media (max-width: 1045px) {
 			.site-header nav {
 				position: relative;
 				text-align: center;
