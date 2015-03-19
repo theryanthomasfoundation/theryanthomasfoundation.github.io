@@ -901,11 +901,17 @@
 			margin-bottom: 80px;
 		}
 
-		@media (max-width: 1045px) {
+		@media (max-width: 1000px) {
 			.site-header nav {
 				position: relative;
 				text-align: center;
 				right: 0;
+			}
+		}
+		@media (min-width: 1000px) {
+			.site-header nav {
+				bottom: initial;
+				top: 15px;
 			}
 		}
 
