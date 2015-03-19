@@ -859,7 +859,7 @@
 	.site-header 
 	{
 		box-sizing: border-box;
-		background-color: rgba(60, 87, 137, 0.20);
+		padding-top: 10px;
 		min-height: 110px;
 		margin: 0;
 		position: relative;
