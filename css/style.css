@@ -1047,6 +1047,19 @@
 				background: #fff;
 			}
 
+			.donations-address-container, .donations-address-container .donations-address-header 
+			{
+				text-align: left; 
+			}
+
+			.donations-address-container .donations-address-header {
+				padding-bottom: 15px;
+			}
+
+			.donations-address-container .address span {
+				display: block;
+			}
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
