@@ -1041,6 +1041,15 @@
 							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
 			}
 
+			.main > .content.style5
+			{
+				background:	url('images/bgtr.svg') top right no-repeat,
+							url('images/bgbl.svg') bottom left no-repeat,
+							url('images/overlay.png'),
+							linear-gradient(45deg, #795F67, #3E3A59, #5F6379);
+				
+			}
+
 			.main > .content.style4
 			{
 				padding-top: 0;
@@ -1097,3 +1106,14 @@
 				{
 					box-shadow: inset 0 0 0 1px #d6d6d6;
 				}
+
+
+
+	.text-left {
+		text-align: left !important;
+	}
+		@media (max-width: 475px) {
+			.collapse {
+				width: 100%;
+			}
+		}
