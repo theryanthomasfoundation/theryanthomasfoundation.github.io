@@ -867,6 +867,7 @@
 		
 	}
 
+
 		.site-header .logo {
 			margin: 0;
 			padding: 5px;
@@ -892,6 +893,19 @@
 			margin: 0;
 			margin-bottom: 80px;
 		}
+
+		.site-header .nav-toggle 
+		{	
+			position: absolute;
+			top: 25px;
+			right: 0;
+			border: 2px solid white;
+			padding: 10px;
+			border-radius: 8px;
+			visibility: hidden;
+		}
+
+
 		.site-header nav
 		{
 			position: absolute;
@@ -901,7 +915,7 @@
 			margin-bottom: 80px;
 		}
 
-		@media (max-width: 1000px) {
+		@media (max-width: 999px) {
 			.site-header nav {
 				position: relative;
 				text-align: center;
@@ -925,6 +939,38 @@
 			color: rgb(186, 186, 186);
 		}
 
+
+		@media (max-width: 750px) {
+			
+			.site-header .logo {
+				text-align: left;
+			}
+
+			.site-header .nav-toggle {
+				visibility: visible;
+			}
+
+			.site-header nav {
+				max-height: 0;
+				overflow: hidden;
+				transition: all .5s ease 0;
+			}
+
+			.site-header input:checked + .nav-toggle {
+				background-color: rgba(255, 255, 255, 0.5);
+			}
+	
+			.site-header input:checked + .nav-toggle + nav {
+				max-height: 1000px;
+			}
+
+			.site-header nav a {
+				display: block;
+				font-size: x-large;
+				margin-top: 10px;
+				padding-bottom: 10px;
+			}
+		}
 
 	#header
 	{
@@ -1047,7 +1093,7 @@
 							url('images/bgbl.svg') bottom left no-repeat,
 							url('images/overlay.png'),
 							linear-gradient(45deg, #795F67, #3E3A59, #5F6379);
-				
+
 			}
 
 			.main > .content.style4
