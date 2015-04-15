@@ -953,6 +953,10 @@
 			.site-header nav {
 				max-height: 0;
 				overflow: hidden;
+				-moz-transition: all .5s ease 0;
+				-webkit-transition: all .5s ease 0;
+				-o-transition: all .5s ease 0;
+				-ms-transition: all .5s ease 0;
 				transition: all .5s ease 0;
 			}
 
