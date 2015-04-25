@@ -1134,6 +1134,25 @@
 					width: 100%;
 				}
 			}
+
+
+			.table-wrapper {
+				overflow-x: initial !important;
+			}
+
+			td:first-child {
+				text-align: left;
+			}
+
+			td:last-child {
+				text-align: right;
+			}
+			.indent {
+				padding-left: 2em !important;
+			}
+			.total {
+				font-weight: bold;
+			}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
