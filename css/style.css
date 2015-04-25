@@ -1105,6 +1105,54 @@
 				display: block;
 			}
 
+			.video-container > div {
+				margin: auto;
+			}
+
+			.row.video-gap {
+				margin-top: 100px;
+			}
+			@media (max-width: 360px) {
+				.video-container {
+					padding-left: 0;
+					position: absolute;
+					right: 0;
+					padding-top: 430px;
+
+					/*margin-right: auto;*/
+				}
+				.video-spacer {
+					margin-top: 430px;
+				}
+				.video-container + div {
+					margin-top: 430px
+				}
+			}
+
+			@media (max-width: 620px) {
+				.youtube-container iframe {
+					width: 100%;
+				}
+			}
+
+
+			.table-wrapper {
+				overflow-x: initial !important;
+			}
+
+			td:first-child {
+				text-align: left;
+			}
+
+			td:last-child {
+				text-align: right;
+			}
+			.indent {
+				padding-left: 2em !important;
+			}
+			.total {
+				font-weight: bold;
+			}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
