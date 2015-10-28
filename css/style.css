@@ -996,7 +996,29 @@
 		{
 			padding-top: 1.5em;
 		}
-	
+
+
+
+		/* sticky nav */
+		.site-header.stuck {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1000;
+			background: #303C4E;
+		}
+
+
+		.site-header.stuck .logo { 
+			position: absolute;
+			display: none;
+		}
+
+		.site-header.stuck .logo img { 
+			height: 60px;
+		}
+
 /*********************************************************************************/
 /* Main Sections                                                                 */
 /*********************************************************************************/

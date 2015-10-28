@@ -63,6 +63,17 @@
 			$('.scrolly').scrolly();
 
 
+			// $header = $('#site-header');
+
+			// $(window).on('scroll', function(e) {
+			// 	if (window.scrollY > 200) {
+			// 		$header.addClass('stuck');
+			// 	} else {
+			// 		$header.removeClass('stuck');
+			// 	}
+			// });
+
+
 			var $selectTemplate = $('#shirt-size-dropdown-template').html();
 			var $fieldTemplate = $('#shirt-size-input-template').html();
 
