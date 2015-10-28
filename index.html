@@ -37,7 +37,7 @@
 						<nav class="nav-menu">
 							<a href="#first" class="scrolly">About</a> 
 							<a href="#golf" class="scrolly">Golf Event</a> 
-							<a href="/news-and-media.html" class="scrolly">News/Media</a> 
+							<a href="//childrensafetyzone.com/go" class="scrolly" target="_blank">Child Safety Zone</a> 
 							<a href="/financial_records.html" class="scrolly">Fiscal Records</a> 
 							<a href="#contact" class="scrolly">Contact</a> 
 							<a href="#donate" class="scrolly">Donate</a> 
@@ -72,10 +72,10 @@
 								<section>
 									<span class="feature-icon"><span class="icon fa-bolt"></span></span>
 									<header>
-										<h3>Facts</h3>
+										<h3>Facts</h3> 2014, 152 incidents with 53 fatalities.
 									</header>
 									<p>
-										Childhood drowning is the <strong>leading</strong> cause of injury-related death in children ages 0-5. In 2013, <strong>33 adults and 11 children</strong> lost their lives in Arizona due to drowning. Tragically, these deaths could have been prevented with life jackets, proper water barriers, education, and CPR training.
+										Childhood drowning is the <strong>leading</strong> cause of injury-related death in children ages 0-5. In 2014, there were 152 incidents with 53 fatalities. <strong>33 adults, 6 teens, and 14 children</strong> lost their lives in Arizona due to drowning. Tragically, these deaths could have been prevented with life jackets, proper water barriers, education, and CPR training.
 									</p>
 								</section>
 							</div>
@@ -92,12 +92,12 @@
 							</div>
 							<div class="4u">
 								<section>
-									<span class="feature-icon"><span class="icon fa-usd"></span></span>
+									<span class="feature-icon"><span class="icon fa-star"></span></span>
 									<header>
 										<h3>Accomplishments</h3>
 									</header>
 									<p>
-										Since 2009 the Ryan Thomas Foundation has contributed nearly <strong>$100,000</strong> to charitable organizations that educate and promote water safety. In addition, they have donated nearly 200 life jackets to the Arizona Game and Fish Department for <em>The Life Jacket Loaner Program</em>. <br /> <a class="scrolly" href="#life-jacket-loaner-program">Learn More</a>
+										Since 2009 the Ryan Thomas Foundation has contributed nearly <strong>$100,000</strong> to charitable organizations that educate and promote water safety. In addition, they have donated 375 life jackets to the Arizona Game and Fish Department and 100 life jackets to the YMCA for <em>The Life Jacket Loaner Program</em>. <br /> <a class="scrolly" href="#life-jacket-loaner-program">Learn More</a>
 									</p>
 								</section>
 							</div>
@@ -160,7 +160,7 @@
 						<h3>Life Jacket Loaner Program</h3>
 						<div class="row no-collapse">
 							<div class="4u collapse">
-								<span class="image featured"><img src="images/rtf/Scan2_1.jpg" alt="" /></span>
+								<span class="image featured"><img src="images/rtf/station.jpg" alt="" /></span>
 							</div>
 							<div class="8u collapse">
 								<p class="text-left">
@@ -189,6 +189,9 @@
 						<h2>Donations</h2>
 						<p>
 							In addition to the events we host each year in Ryan’s memory, we benefit greatly from direct donations to the foundation.  We are proud to turn 100% of the donations we receive into contributions to other charities or organizations with great vision and heart but perhaps limited resources.
+						</p>
+						<p class="donations-picture">
+							<img src="images/rtf/Scan2_1.jpg" alt="" />
 						</p>
 						<div class="donations-address-container">
 							<p class="donations-address-header">Donations may be made via PayPal by clicking the ‘Donate’ button below or via check mailed to:</p>
@@ -255,8 +258,7 @@
 					<div class="container">
 						<h2>Tournament Registration</h2>
 						<p>
-							Stay Tuned...<br />
-							Tournament details coming soon!
+							<a href="/flyers/annual_golf_classic_7.pdf" target="_blank" title="7th Annual Golf Tournament Flyer">Click here for more event details.</a>
 						</p>
 					</div>
 				</header>
@@ -266,11 +268,15 @@
 							<input type="hidden" name="cmd" value="_s-xclick">
 							<input type="hidden" name="hosted_button_id" value="F88HLTBWZERKL">
 							<input type="hidden" name="currency_code" value="USD">
-							<input type="hidden" name="on3" value="Player/Captain">
-							<input type="hidden" name="on4" value="Team Name/Sponsor Name">
-							<input type="hidden" name="on2" value="How did you hear about us?">
-							<input type="hidden" name="on1" value="Shirt Size">
 							<input type="hidden" name="on0" value="Tournament Options">
+							<input type="hidden" name="on1" value="How did you hear about us?">
+							<input type="hidden" name="on2" value="Player/Captain">
+							<input type="hidden" name="on3" value="Team Name/Sponsor Name">
+
+							<div id="shirt-size-fields">								
+								<input type="hidden" name="on4" value="Shirt Size">
+							</div>
+
 							<div class="row 50%">
 								<div class="6u"><input type="text" maxlength="200" name="os3" placeholder="-- Player/Captain --" /></div>
 								<div class="6u"><input type="text" name="os4" maxlength="200" placeholder="-- Team Name/Sponsor Name --" /></div>
@@ -278,7 +284,7 @@
 							<div class="row 50%">
 								<div class="12u">
 									<div class="select" tabindex="-1">
-										<select name="os0" required="required">
+										<select id="event-option" name="os0" required="required">
 											<option value="">-- Tournament Options --</option>
 											<option value="Single Player (incl dinner)">Single Player (incl dinner) $125.00 USD</option>
 											<option value="Foursome (incl dinner)">Foursome (incl dinner) $475.00 USD</option>
@@ -289,10 +295,10 @@
 									</div>
 								</div>
 							</div>
-							<div class="row 50%">
+							<div id="shirt-size-inputs" class="row 50%">
 								<div class="12u">
 									<div class="select" tabindex="-1" >
-										<select name="os1" required="required">
+										<select name="os4" required="required">
 											<option value="">-- Shirt Size --</option>
 											<option value="Men's M">Men's M </option>
 											<option value="Men's L">Men's L </option>
@@ -369,4 +375,28 @@
 </html>
 
 
+
+<script id="shirt-size-dropdown-template" type="text/template">
+	<div class="12u">
+		<div class="select" tabindex="-1" >
+			<select name="os{{x}}" required="required">
+				<option value="">-- Shirt Size {{label}}--</option>
+				<option value="Men's M">Men's M </option>
+				<option value="Men's L">Men's L </option>
+				<option value="Men's XL">Men's XL </option>
+				<option value="Men's XXL">Men's XXL </option>
+				<option value="Men's XXXL">Men's XXXL </option>
+				<option value="Women's S">Women's S </option>
+				<option value="Women's M">Women's M </option>
+				<option value="Women's L">Women's L </option>
+				<option value="Women's XL">Women's XL </option>
+				<option value="Youth">Youth </option>
+			</select>
+		</div>
+	</div>
+</script>
+
+<script id="shirt-size-input-template" type="text/template">
+	<input type="hidden" name="on{{x}}" value="Shirt Size {{label}}">
+</script>
 
