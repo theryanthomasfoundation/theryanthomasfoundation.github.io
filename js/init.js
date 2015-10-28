@@ -62,6 +62,41 @@
 		// Scrolly links.
 			$('.scrolly').scrolly();
 
+
+			var $selectTemplate = $('#shirt-size-dropdown-template').html();
+			var $fieldTemplate = $('#shirt-size-input-template').html();
+
+			var $selectContainer = $form.find('#shirt-size-inputs');
+			var $fieldContainer = $form.find('#shirt-size-fields');
+			
+
+			$form.find('#event-option').on('change', function(e) {
+
+				var shirtmap = {
+					'Dinner Only': 0,
+					'Hole Sponsor': 1,
+					'Single Player (incl dinner)': 1,
+					'Foursome + Hole Sponsor': 4,
+					'Foursome (incl dinner)': 4
+				};
+
+				var selectedOption = e.currentTarget.value;
+				var numberOfShirts = shirtmap[selectedOption];
+
+				$selectContainer.empty();
+				$fieldContainer.empty();
+
+				if (numberOfShirts) {
+
+					for (var i = 4; i < numberOfShirts+4; i++ ) {
+						$fieldContainer.append($fieldTemplate.replace(/{{x}}/g, i).replace(/{{label}}/g, i - 3));
+						$selectContainer.append($selectTemplate.replace(/{{x}}/g, i).replace(/{{label}}/g, i - 3));
+					}
+
+				}
+
+			});
+
 	});
 
 })(jQuery);
