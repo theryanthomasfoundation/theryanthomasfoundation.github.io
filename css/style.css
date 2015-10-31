@@ -998,6 +998,11 @@
 		}
 
 
+		.site-header,
+		.site-header .logo,
+		.site-header .logo img {
+			transition: all .4s ease-in-out;
+		}
 
 		/* sticky nav */
 		.site-header.stuck {
@@ -1005,6 +1010,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
+			min-height: initial;
 			z-index: 1000;
 			background: #303C4E;
 		}
@@ -1012,7 +1018,7 @@
 
 		.site-header.stuck .logo { 
 			position: absolute;
-			display: none;
+			/*display: none;*/
 		}
 
 		.site-header.stuck .logo img { 
@@ -1228,6 +1234,46 @@
 					min-height: 230px;
 				}
 			} 
+
+   			@media (max-width: 860px) {
+				.flyers {
+					display: none;
+				}
+			}
+
+			.hover-box {				
+				float: left;
+				width: 50%;
+				padding: 1em;
+				cursor: pointer;
+			}
+			.hover-box img {
+				width: 100%;
+				border: 1px solid gray;
+			}
+
+			.hover-box:target img {
+				z-index: 10;
+				position: fixed;
+				width: 80%;
+				left: 10%;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.hover-box:target ~ .modal {
+				position: fixed;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+			}
+			.hover-box:target ~ .modal-bg {
+				background: rgba(0,0,0,0.5);
+				z-index: 5;
+			}
+			.hover-box:target ~ .close-modal {
+				z-index: 15;
+			}
 
 			.cf:after {
 				display: block;
