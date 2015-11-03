@@ -961,6 +961,8 @@
 	{
 		position: relative;
 		margin: 0;
+		background-image: url('../images/rtf/dock.jpg');
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#7f3770d2, endColorstr=#7f367076)";
 		background-image:				-webkit-linear-gradient(45deg, rgba(55, 112,210, .5), rgba(25, 115,150,.5), rgba(54,112, 118, .5)), url('../images/rtf/dock.jpg');
 		background-image:				linear-gradient(45deg, rgba(55, 112,210, .5), rgba(25, 115,150,.5), rgba(54,112, 118, .5)),		url('../images/rtf/dock.jpg');
 		background-size:			auto,								cover;
