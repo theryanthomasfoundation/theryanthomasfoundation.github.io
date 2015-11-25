@@ -880,6 +880,7 @@
 
 		.site-header .nav-toggle 
 		{	
+			cursor: pointer;
 			position: absolute;
 			top: 25px;
 			right: 0;
@@ -937,7 +938,7 @@
 			.site-header nav {
 				max-height: 0;
 				overflow: hidden;
-				-webkit-transition: all .5s ease 0;
+				-webkit-transition: all .5s ease-in-out;
 				transition: all .5s ease 0;
 			}
 
