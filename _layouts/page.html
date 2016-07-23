@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section id="header" class="dark">
+
+	{% include header.html %}
+
+	<header>
+	  <h1 class="slide-up delay-quarter">The Ryan Thomas Foundation</h1>
+	  <p class="slide-up delay-half">"Good People Are Remembered". RT88</p>
+	</header>
+	<footer class="slide-up delay-one">
+	  <a href="{% if page.url != '/' %}/{% endif %}#donate" class="button scrolly">Make a Difference</a>
+	</footer>
+
+</section>
+
+
+<section id="first" class="main">
+	<header>
+		<div class="container">
+			<h2>
+				{{ page.intro_header }}
+			</h2>
+			<p>
+				{{ page.intro_body }}
+			</p>
+		</div>
+	</header>
+</section>
+
+{{ content }}
+
+
+  

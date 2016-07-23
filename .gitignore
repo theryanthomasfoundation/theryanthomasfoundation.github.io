@@ -1,1 +1,4 @@
-coins.html
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
