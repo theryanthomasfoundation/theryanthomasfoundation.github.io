@@ -1,0 +1,41 @@
+- year: 2013
+  pdf: /records/2013_RTF_Tax_Return.pdf
+  proceeds: 
+    direct_contributions: 1,650.00
+    tournament: 28,325.00
+    auction_raffle: 10,291.44
+    total: 40,266.44
+  expenses: 
+    direct_assistance: -20,000.00
+    insurance: -963.57
+    special_event_fees: -17,862.83
+    total: -38,826.40
+    net_reserve: 1,440.04
+
+- year: 2012
+  pdf: /records/2012_RTF_Tax_Return.pdf
+  proceeds: 
+    direct_contributions: 2,300.00
+    tournament: 18,840.00
+    auction_raffle: 6,219.86
+    total: 27,359.86
+  expenses: 
+    direct_assistance: -18,000.00
+    insurance: -790.63
+    special_event_fees: -10,120.44
+    total: -28,911.07
+    net_reserve: (1,551.21)
+
+- year: 2011
+  pdf: /records/2011_RTF_Tax_Return.pdf
+  proceeds: 
+    direct_contributions: 1,190.00
+    tournament: 18,010.00
+    auction_raffle: 4,370.00
+    total: 23,570.00
+  expenses: 
+    direct_assistance: -10,600.00
+    insurance: -648.70
+    special_event_fees: -15,935.08
+    total: -27,183.78
+    net_reserve: (3,613.78)
