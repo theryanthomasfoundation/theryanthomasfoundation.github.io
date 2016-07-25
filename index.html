@@ -1,5 +1,6 @@
 ---
 layout: page
+title: The Ryan Thomas Foundation
 intro_header: We exist to honor Ryan's memory by making a difference in the lives of others.
 intro_body: It is our mission in to continue to raise awareness of the dangers around water, both to children and adults, <br /> while hosting fundraising events that will contribute to a decrease in local water related fatalities.
 ---
@@ -21,52 +22,36 @@ intro_body: It is our mission in to continue to raise awareness of the dangers a
         <h3>&mdash; Ryan Thomas</h3>
       </blockquote>
     </div>
-  </div>
-  <div class="content dark style5 featured">
+  </div> 
+</section>
     
-    {% include story.html %}
-    
+<section class="main">
+  <div class="content dark style5 featured">    
+    {% include story.html %}    
   </div>
 </section>
 
-<!-- Third -->
-<section id="life-jacket-loaner-program" class="main">
+
+<section class="main">
   <header>
     <div class="container">
       <h3>Open water drownings most often occur within a few feet of safety and most drowning victims had a life jacket available, but chose not to wear it.</h3>
     </div>
   </header>
-  <div class="content dark style2">
-     {% include lifejacket.html %}
+</section>
+
+
+
+<section id="contact" class="main">
+  <div class="content dark style3">
+    {% include contact.html %}        
   </div>
 </section>
 
-<!-- Second -->
-<section id="donate" class="main">
-  <header>
 
+<section class="main">
+  <header id="donate">
     {% include donate.html %}
-
   </header>
-  <div id="contact" class="content dark style3">
-    
-    {% include contact.html %}
-          
-  </div>
 </section>
 
-
-<!-- Fourth -->
-<section id="golf" class="main">
-  
-  {% if site.golf_closed %}
-
-    {% include nogolf.html %}
-
-  {% else %}
-
-    {% include golf.html %}
-    
-  {% endif %}
-  
-</section>

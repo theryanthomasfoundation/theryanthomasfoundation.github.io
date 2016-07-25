@@ -255,6 +255,22 @@
 			{
 				display: block;
 				width: 100%;
+			}			
+
+			.lifejackets .hover-box {
+				width: 100%;
+			}
+
+			@media (min-width: 440px) {				
+				.lifejackets .hover-box {
+					width: 50%;
+				}
+			}
+
+			@media (min-width: 1000px) {				
+				.lifejackets .hover-box {
+					width: 33.33%;
+				}
 			}
 			
 			.image.left
@@ -1245,10 +1261,12 @@
 			}
 
 			.hover-box {				
-				float: left;
-				width: 50%;
+				float: left;				
 				padding: 1em;
 				cursor: pointer;
+			}
+			.hover-box.half {
+				width: 50%;
 			}
 			.hover-box img {
 				width: 100%;
@@ -1276,6 +1294,18 @@
 			}
 			.hover-box:target ~ .close-modal {
 				z-index: 15;
+			}
+
+			.loader {
+				display: none;
+			}
+
+			.submitted {
+				display: none;
+			}
+
+			.submitted + .loader {
+				display: block;
 			}
 
 			.cf:after {

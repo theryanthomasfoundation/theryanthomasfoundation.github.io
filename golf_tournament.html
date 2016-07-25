@@ -1,0 +1,20 @@
+---
+layout: page
+title: Golf Tournament
+intro_header: Come Out And Swing For Water Safety
+intro_body: Corporate sponsorship options available
+---
+
+<section id="golf" class="main">
+  
+  {% if site.golf_closed %}
+
+    {% include nogolf.html %}
+
+  {% else %}
+
+    {% include golf.html %}
+    
+  {% endif %}
+  
+</section>
