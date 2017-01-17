@@ -17,6 +17,6 @@ url: "http://theryanthomasfoundation.com" # the base hostname & protocol for you
 # Build settings
 markdown: kramdown
 
-golf_closed: true
+golf_closed: false
 total_contributions: '150,000'
 lifejackets_donated: 725
