@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   It is our mission in to continue to raise awareness of the dangers around water, both to children and adults, 
   while hosting fundraising events that will contribute to a decrease in local water related fatalities.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://theryanthomasfoundation.com" # the base hostname & protocol for your site
+url: "https://theryanthomasfoundation.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
