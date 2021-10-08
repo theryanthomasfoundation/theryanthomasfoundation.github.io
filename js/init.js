@@ -84,11 +84,11 @@
 			$form.find('#event-option').on('change', function(e) {
 
 				var shirtmap = {
-					'Lunch Only': 0,
-					'Hole Sponsor': 1,
-					'Single Player (incl lunch)': 1,
-					'Foursome + Hole Sponsor': 4,
-					'Foursome (incl lunch)': 4
+					'food_only': 0,
+					'hole_sponsor': 1,
+					'single_player': 1,
+					'foursome_and_hole_sponsor': 4,
+					'foursome': 4
 				};
 
 				var selectedOption = e.currentTarget.value;
