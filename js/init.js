@@ -74,8 +74,8 @@
 			// });
 
 
-			var $selectTemplate = $('#shirt-size-dropdown-template').html();
-			var $fieldTemplate = $('#shirt-size-input-template').html();
+			var $selectTemplate = $('#shirt-size-dropdown-template').text();
+			var $fieldTemplate = $('#shirt-size-input-template').text();
 
 			var $selectContainer = $form.find('#shirt-size-inputs');
 			var $fieldContainer = $form.find('#shirt-size-fields');
@@ -84,11 +84,11 @@
 			$form.find('#event-option').on('change', function(e) {
 
 				var shirtmap = {
-					'Dinner Only': 0,
+					'Lunch Only': 0,
 					'Hole Sponsor': 1,
-					'Single Player (incl dinner)': 1,
+					'Single Player (incl lunch)': 1,
 					'Foursome + Hole Sponsor': 4,
-					'Foursome (incl dinner)': 4
+					'Foursome (incl lunch)': 4
 				};
 
 				var selectedOption = e.currentTarget.value;

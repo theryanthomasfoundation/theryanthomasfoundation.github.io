@@ -100,10 +100,10 @@
 </header>
 <div class="content style4 featured">
   <div class="container 75%">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="POST">
+
       <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="F88HLTBWZERKL">
-      <input type="hidden" name="currency_code" value="USD">
+      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
       <input type="hidden" name="on0" value="Tournament Options">
       <input type="hidden" name="on1" value="How did you hear about us?">
       <input type="hidden" name="on2" value="Player/Captain">
@@ -114,19 +114,19 @@
       </div>
 
       <div class="row 50%">
-        <div class="6u"><input type="text" maxlength="200" name="os3" placeholder="-- Player/Captain --" /></div>
-        <div class="6u"><input type="text" name="os4" maxlength="200" placeholder="-- Team Name/Sponsor Name --" /></div>
+        <div class="6u"><input type="text" maxlength="200" name="os2" placeholder="-- Player/Captain --" /></div>
+        <div class="6u"><input type="text" name="os3" maxlength="200" placeholder="-- Team Name/Sponsor Name --" /></div>
       </div>
       <div class="row 50%">
         <div class="12u">
           <div class="select" tabindex="-1">
             <select id="event-option" name="os0" required="required">
               <option value="">-- Tournament Options --</option>
-              <option value="Single Player (incl dinner)">Single Player (incl lunch) $175.00 USD</option>
-              <option value="Foursome (incl dinner)">Foursome (incl lunch) $650.00 USD</option>
+              <option value="Single Player (incl lunch)">Single Player (incl lunch) $175.00 USD</option>
+              <option value="Foursome (incl lunch)">Foursome (incl lunch) $600.00 USD</option>
               <option value="Foursome + Hole Sponsor">Foursome + Hole Sponsor $850.00 USD</option>
               <option value="Hole Sponsor">Hole Sponsor $300.00 USD</option>
-              <option value="Dinner Only">Lunch Only $25.00 USD</option>
+              <option value="Lunch Only">Lunch Only $25.00 USD</option>
             </select> 
           </div>
         </div>
@@ -153,7 +153,7 @@
       <div class="row 50%">
         <div class="12u">
           <div class="select" tabindex="-1">
-            <select name="os2" required="required">
+            <select name="os1" required="required">
               <option value="">-- How did you hear about us? --</option>
               <option value="Played in a previous year">Played in a previous year </option>
               <option value="Drowning Prevention Coalition">Drowning Prevention Coalition </option>
