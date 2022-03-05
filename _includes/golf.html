@@ -100,7 +100,7 @@
 </header>
 <div class="content style4 featured">
   <div class="container 75%">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="POST">
+    <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="POST">
 
       <input type="hidden" name="cmd" value="_s-xclick">
       <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
@@ -176,16 +176,19 @@
           </ul>
         </div>
       </div>
-    </form>
+    </form> -->
 
     <hr>
     <div class="row" id="donate-alt">
       <div class="12u">
         <h2>Not so great on the golf course, but still want to make a differnece?</h2>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="POST">
+        <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="POST">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="A7SARXTC9WFSQ">
           <input type="submit" name="submit" class="button alt paypal" value="Donate" />
+        </form> -->
+        <form action="/#donate" method="GET">
+          <input type="submit" name="" class="button alt paypal" value="Donate" />
         </form>
       </div>
     </div>
